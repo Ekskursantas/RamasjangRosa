@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <!--
+        Customize the content security policy in the meta tag below as needed. Add 'unsafe-inline' to default-src to enable inline JavaScript.
+        For details, see http://go.microsoft.com/fwlink/?LinkID=617521
+    -->
+        <title>DRRosaCordova</title>
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src file://* blob://* data://*">
+        
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+
+        <script type="text/javascript" src="cordova.js"></script>
+
+        <script type="text/javascript" src="scripts/platformOverrides.js"></script>
+        <script type="text/javascript" src="scripts/index.js"></script>
+
+        <link href="dist_folder/css/rosa.css" rel="stylesheet" type="text/css">
+
+        <script type="text/javascript" src="dist_folder/scripts/vendor/jquery-3.1.1.slim.min.js"></script>
+        <script type="text/javascript" src="dist_folder/scripts/vendor/pixi.min.js"></script>
+        <!-- <script type="text/javascript" src="scripts/vendor/dragonBones.min.js"></script>
+        <script type="text/javascript" src="scripts/vendor/dragonBonesPixi.min.js"></script> -->
+        <script type="text/javascript" src="dist_folder/scripts/vendor/vendor.min.js"></script>
+
+        
+    </head>
+    <body>
+        <div class="app">
+            <p id="deviceready" class="event">Connecting to Device</p>
+        </div>
+        <!--<div id="wrapper">-->
+        <div id="container">
+
+            <div id="drrosa">
+                <canvas id="canvas_rosa"></canvas>
+
+            </div>
+
+        </div>
+        <!--</div>-->
+        
+
+    </body>
+</html>

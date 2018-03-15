@@ -1,0 +1,13 @@
+.DS_Store
+.idea
+*.iml
+node_modules/
+rosa_game_assets/
+dist/resources/
+dist/resources/DragonBoy/
+dist/debug/
+dist/manifests/
+dist/media/scenes/_bk
+
+
+typings/

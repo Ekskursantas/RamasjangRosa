@@ -1,0 +1,1 @@
+export class GenericDataEvent { 	public data:any;	public type:string;	constructor (pType:string, pData:any = null) {		this.setData(pType, pData);	}	public setData(pType:string, pData:any = null):void {		this.type = pType;		this.data = pData || {};	}	public reset():void {		this.type = null;		this.data = null;	}}
